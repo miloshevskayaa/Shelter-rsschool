@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    padding: 4.9vh 6.5vh;
+    background-color: #FFFFFF;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+}
+.navbar .maxwidth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logomain{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.logodop{
+    font-family: 'Arial';
+    display: flex;
+    color: #292929;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1vh;
+    letter-spacing: 0.1em;
+    margin-top: 1.6vh;
+}
+.menu li{
+    list-style: none;
+    display: inline-block; 
+}
+.menu li a{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 2vh;
+    margin-left: 5vh;
+    display: flex;
+    letter-spacing: 0.1em;
+    color: #545454;
+    transition: color 0.5s ease;
+}
+.menu li a:hover{
+    color:#F1CDB3;
+}
+.menu .aboutshelter{
+    color: #292929;
+    border-bottom: 0.5vh solid #F1CDB3; 
+    padding-bottom: 0.65vh; 
+}
+
+
+.pets{
+    background-color: #F6F6F6;
+    height: 1342px;
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    justify-content: center;
+}
+.pets-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pets-content .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom:  30px;;
+    width: 1280px;
+    height: 930px;
+    justify-content: center;
+
+}
+.pets-content .navigation{
+    justify-self:center;
+}
+.pets .pets-content .heading{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+    justify-self:center;
+
+}
+.card{
+    text-align: center;
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border-radius: 1.5vh;
+    margin: 0 15px 40px 15px;
+    transition: box-shadow 0.7s ease;
+    transition: transform 0.7s ease;
+
+}
+.card:hover{
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+
+}
+.card p{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 3.3vh;
+    line-height: 3.8vh;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 4.9vh;
+}
+.card button{
+    width: 187px;
+    height: 52px;
+    border: 0.33vh solid #F1CDB3;
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    border-radius: 16.4vh;
+    margin-top: 30px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 2.8vh;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    transition: background-color 0.7s ease;
+    cursor: pointer;
+
+}
+.card button:hover{
+    background-color: #F1CDB3;
+}
+
+.navigation button{
+    background-color: transparent;
+    border: 0.33vh solid #F1CDB3;
+    cursor: pointer;
+    width: 8.5vh;
+    height: 8.5vh;
+    border-radius: 164vh;
+    color: #292929;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    transition: background-color 0.7s ease;
+    transition: transform 0.7s ease;
+
+}
+.navigation button:hover{
+    background-color: #F1CDB3;
+    transform: scale(1.05);
+
+}
+.navigation .prev2, .navigation .prev1{
+    background: transparent;
+    border: 0.33vh solid #CDCDCD;
+    color: #CDCDCD;
+}
+.navigation .prev1:hover{
+    background-color: transparent;
+    transform: scale(1);
+    cursor:no-drop;
+}
+.navigation .prev2:hover{
+    background-color: transparent;
+    transform: scale(1);
+    cursor:no-drop;
+
+}
+.navigation .now{
+    background-color: #F1CDB3;
+
+}
+
+footer{
+    display: flex;
+    background: url("../../assets/images/footer-background.png");
+    background-size: cover;
+    height: 57.4vh;
+    padding: 6.5vh 6.5vh 0 6.5vh;
+}
+.footer-content{
+    display: flex;
+    width: 196.7vh;
+    height: 50.8vh;
+    justify-content: space-between;
+
+}
+.footer-content h3{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 5.7vh;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 45.9vh;
+    height: 14.7vh;
+
+}
+.footer-content h4{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 3.3vh;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+.footer-content a{
+    color: #F1CDB3;
+    display: flex;
+    align-items: center;
+    margin-top: 7.4vh;
+}
+
+.footer-content img{
+    margin-right: 3vh;
+}
+
+@media (min-width: 768px) and (max-width: 1279px){
+    .navbar{
+        padding: 4.9vh;
+        position: absolute;
+    }
+    .pets{
+        height: 1733px;;
+        display: flex;
+        align-items: center;
+        margin-top: 20vh;
+        justify-content: center;
+    }
+    .pets-content{
+        width: 708px;
+        height: 1603px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pets-content .navigation{
+        justify-self:center;
+    }
+    .pets .pets-content .heading{
+        font-size: 35px;
+        text-align: center;
+        justify-self:center;
+    
+    }
+    .pets-content .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 580px;
+        height: 1365px;
+    }
+    .card{
+        text-align: center;
+        /* width: 44.3vh;
+        height: 71.3vh; */
+        width: 270px;
+        height: 435px;
+        margin: 0 10px 30px 10px;
+    }
+    .card p{
+        font-size: 3.3vh;
+        margin-top: 4.9vh;
+    }
+    .card button{
+        width: 30.7vh;
+        height: 8.5vh;
+        box-sizing: border-box;
+        margin-top: 4.9vh;
+        font-size: 2.8vh;
+    }
+    .card img{
+        width: 270px;
+        height: 270px;
+    }
+    #last{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        /* height: 57.4vh; */
+        height: 639px;
+        padding: 30px 30px 0 30px;
+        /* padding: 6.5vh 6.5vh 0 6.5vh; */
+        justify-content: center;
+    }
+    .footer-content{
+        display: flex;
+        width: 196.7vh;
+        height: 50.8vh;
+        justify-content: space-between;
+        padding: 0 64px 0 64px;
+        flex-wrap: wrap;    
+    }
+    .locations img{
+        width: 32px;
+        height: 40px;
+    }
+    .footer-content .dog{
+        width: 300px;
+        height: 310px; 
+        display: flex;
+        align-items: flex-end; 
+        margin-left: 170px;   
+        margin-top: 62px;
+    }
+
+}
